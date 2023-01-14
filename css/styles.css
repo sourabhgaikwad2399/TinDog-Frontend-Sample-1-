@@ -1,0 +1,193 @@
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.colored-background{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-background{
+    background-color: #fff;
+}
+
+
+.container-fluid{
+  padding: 5% 15% 7%;
+}
+
+/* Navigation-bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.25rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download-Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img-div{
+  position: relative;
+ }
+.title-img{
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features */
+#features{
+  position: relative;
+  width: 100%;
+}
+
+.feat{
+  padding: 10% 4%;
+}
+
+.feat-h3
+{
+  padding: 1rem 0 0;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color:#ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testm-1{
+  padding: 3% 15%;
+}
+
+.testm-1-img{
+  width: 15%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  margin: 7%;
+}
+
+.pricing-header-text{
+  font-size: 3rem;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+.card-box{
+  padding: 5% 15%;
+}
+
+.card-header-text{
+  font-size: 2rem;
+}
+.plan{
+  font-size: 2.5rem;
+}
+
+
+/* CTA Section */
+
+.cta-div{
+  padding: 7% 20%;
+}
+
+.cta-text{
+  font-size: 3rem;
+}
+
+.download-button-1{
+  margin: 3% 1%;
+}
+
+
+@media (max-width:992px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Footer Section */
+#footer{
+  margin:7%;
+}
+
+.footer-icon{
+  margin:1rem;
+}
