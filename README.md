@@ -1,1 +1,1 @@
-A sample website for frontend Developement ( Using HTML5,CSS and Bootstrap).
+A sample website for Frontend Development practice (Using HTML5, CSS and Bootstrap).
